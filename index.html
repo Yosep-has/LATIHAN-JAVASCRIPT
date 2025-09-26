@@ -5,12 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Enhanced Todo List</title>
 
-    <!-- Bootstrap v5.3 -->
+    <link rel="icon" type="image/png" href="favicon.png" />
+
     <link
       rel="stylesheet"
       href="/assets/vendor/bootstrap-5.3.7/package/dist/css/bootstrap.min.css"
     />
-    <!-- Bootstrap Icons -->
     <link
       rel="stylesheet"
       href="/assets/vendor/bootstrap-icons-1.13.1/package/font/bootstrap-icons.min.css"
@@ -65,7 +65,6 @@
           <i class="bi bi-list-check text-primary"></i> Enhanced Todo List
         </h1>
 
-        <!-- Statistics -->
         <div class="row mb-4">
           <div class="col-md-4">
             <div class="card bg-primary text-white">
@@ -93,7 +92,6 @@
           </div>
         </div>
 
-        <!-- Form -->
         <form id="formData" class="mb-4">
           <div class="card">
             <div class="card-body">
@@ -120,7 +118,6 @@
           </div>
         </form>
 
-        <!-- Search and Filter -->
         <div class="card mb-4">
           <div class="card-body">
             <div class="row">
@@ -158,7 +155,6 @@
           </div>
         </div>
 
-        <!-- Todo List -->
         <div class="card">
           <div class="card-header">
             <h5 class="mb-0">
@@ -168,8 +164,7 @@
           </div>
           <div class="card-body p-0">
             <ul class="list-group list-group-flush" id="todoList">
-              <!-- Todos will be rendered here -->
-            </ul>
+              </ul>
             <div id="emptyState" class="text-center p-5 text-muted" style="display: none;">
               <i class="bi bi-inbox display-1"></i>
               <h5 class="mt-3">Tidak ada todo yang ditemukan</h5>
@@ -180,7 +175,6 @@
       </div>
     </div>
 
-    <!-- Edit Modal -->
     <div class="modal fade" id="editModal" tabindex="-1">
       <div class="modal-dialog">
         <div class="modal-content">
@@ -227,7 +221,6 @@
       </div>
     </div>
 
-    <!-- Bootstrap JS -->
     <script src="/assets/vendor/bootstrap-5.3.7/package/dist/js/bootstrap.bundle.min.js"></script>
     
     <script>
